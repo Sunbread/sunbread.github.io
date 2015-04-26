@@ -1,8 +1,8 @@
 .head {
     background-color: #CECECE;
-    margin: 0 20px 10px 20px;
     font-size: 120%;
     padding: 16px;
+    margin: 0 40px 0 40px;
 }
 .head h1 {
     font-size: 180%;
@@ -11,4 +11,35 @@
 .head .avatar {
     float: left;
     margin: 16px;
+}
+.head .avatLine {
+    display: block;
+    float: none;
+}
+.l-line {
+    margin: 0 40px 0 40px;
+    padding: 16px;
+}
+.l-line .cow {
+    display: block;
+    vertical-align: top;
+    margin: 2px;
+    padding: 6px;
+}
+.l-line .cowtb {
+    display: inline-block;
+}
+.l-line .cow h2 {
+    font-weight: bold;
+    font-size: 180%;
+}
+.l-line .projects ul {
+    list-style-type: none;
+    font-size: 135%;
+    padding: 4px;
+}
+.l-line .projects ul .desc {
+    font-size: 90%;
+    color: #555;
+    padding-left: 16px;
 }
