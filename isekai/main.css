@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap);
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #a0d0f0, #7ab8d9);
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #292929;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.container button,
+.container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff9800;
+    border: 1px solid #e68900;
+    color: #f5f5dc;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #ffa500;
+    transform: scale(1.025);
+}
+
+button:active {
+    background-color: #c77d00;
+    transform: scale(0.975);
+}
+
+button:disabled {
+    background-color: #cccccc; /* 灰色背景 */
+    border: 1px solid #afafaf; /* 灰色边框 */
+    color: #666666; /* 深灰色文字 */
+    cursor: not-allowed; /* 禁用光标 */
+    box-shadow: none; /* 去掉阴影 */
+    transform: none; /* 去掉缩放效果 */
+    transition: none; /* 去掉过渡效果 */
+}
+
+textarea {
+    resize: none;
+    color: black;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
